@@ -96,7 +96,7 @@
               </ul>
             </li>
             
-            <!-- <li class="treeview">
+            <li class="treeview">
               <a href="#"><i class="glyphicon glyphicon-pencil"></i> <span>Modul Berita</span><i class="fa fa-angle-left pull-right"></i></a>
               <ul class="treeview-menu">
               <?php
@@ -118,7 +118,7 @@
               </ul>
             </li>
             
-            <li class="treeview">
+            <!-- <li class="treeview">
               <a href="#"><i class="glyphicon glyphicon-camera"></i> <span>Modul Gallery</span><i class="fa fa-angle-left pull-right"></i></a>
               <ul class="treeview-menu">
               <?php
