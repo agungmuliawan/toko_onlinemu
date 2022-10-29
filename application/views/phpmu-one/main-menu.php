@@ -5,7 +5,7 @@
             <?php 
               $logo = $this->model_app->view_ordering_limit('logo','id_logo','DESC',0,1);
               foreach ($logo->result_array() as $row) {
-              echo "<a href='".base_url()."'><img height=50px src='".base_url()."asset/images/$row[gambar]'/></a>";
+              echo "<a href='".base_url()."'><img height=50px src='".base_url()."asset/images/logo.png'/></a>";
               }
             ?>
           </div>
