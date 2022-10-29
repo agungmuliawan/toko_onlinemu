@@ -96,7 +96,7 @@
               </ul>
             </li>
             
-            <li class="treeview">
+            <!-- <li class="treeview">
               <a href="#"><i class="glyphicon glyphicon-pencil"></i> <span>Modul Berita</span><i class="fa fa-angle-left pull-right"></i></a>
               <ul class="treeview-menu">
               <?php
@@ -178,7 +178,7 @@
 
               ?>
               </ul>
-            </li>
+            </li> -->
             <li class="treeview">
               <a href="#"><i class="fa fa-cog"></i> <span>Modul Users</span><i class="fa fa-angle-left pull-right"></i></a>
               <ul class="treeview-menu">
@@ -188,10 +188,10 @@
                   echo "<li><a href='".base_url()."administrator/manajemenuser'><i class='fa fa-circle-o'></i> Manajemen User</a></li>";
                 }
 
-                $cek=$this->model_app->umenu_akses("manajemenmodul",$this->session->id_session);
-                if($cek==1 OR $this->session->level=='admin'){
-                  echo "<li><a href='".base_url()."administrator/manajemenmodul'><i class='fa fa-circle-o'></i> Manajemen Modul</a></li>";
-                }
+                // $cek=$this->model_app->umenu_akses("manajemenmodul",$this->session->id_session);
+                // if($cek==1 OR $this->session->level=='admin'){
+                //   echo "<li><a href='".base_url()."administrator/manajemenmodul'><i class='fa fa-circle-o'></i> Manajemen Modul</a></li>";
+                // }
               ?>
               </ul>
             </li>
